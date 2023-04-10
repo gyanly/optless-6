@@ -17,6 +17,10 @@
    var waName = otplessUser.waName;
    var waNumber = otplessUser.waNumber;
    // Signup/signin the user and redirect to next page
+   document.getElementById('otpless').innerHTML = `
+   <h2>Hi, ${waName} Welcome You have Loged in</h2>
+   <p>Mobile Number :${waNumber}</p>   
+   `;
   }
 </script>
 </body>
